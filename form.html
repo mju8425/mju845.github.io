@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <label for="fname">Primer nombre:</label><br><br>
+        <input type="text" id="pnombre" name="pnombre"><br><br>
+        <label for="lname">Seguno Nombre:</label><br>
+        <input type="text" id="snombre" name="snombre"><br> <br>
+
+        <input type="submit" value="Submit"> <br><br>
+
+        <input type="radio" id="html" name="tipo_lenguaje" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="tipo_lenguaje" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="Python" name="tipo_lenguaje" value="Python">
+        <label for="Python">Python</label><br><br>
+
+        <input type="checkbox" id="prueba1" name="prueba1" value="numero1">
+        <label for="prueba1"> seleccione </label><br>
+        <input type="checkbox" id="prueba2" name="prueba2" value="numero2">
+        <label for="prueba2"> seleccione</label><br>
+        <input type="checkbox" id="prueba3" name="prueba3" value="numero3">
+        <label for="prueba3"> seleccione</label> <br> <br>
+
+        <label for="frutas">Seleccione:</label>
+        <select id="frutas" name="frutas" size="4" multiple>
+            <option value="fresa">Fresa</option>
+            <option value="manzana">Manzana</option>
+            <option value="naranja">Naranja</option>
+            <option value="kiwi">Kiwi</option>
+        </select> <br><br>
+
+        <label> <h1> text area </h1> </label> <br>
+        <textarea name="mensaje" rows="20" cols="40">
+     adso sena noche HTML.
+</textarea> <br>
+
+
+        <form action="/action_page.php">
+            <fieldset>
+                <legend> personaliza</legend>
+                <label for="fname">nombre</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">apellido</label><br>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <input type="submit" value="Submit">
+            </fieldset><br>
+
+            <input list="navegadores">
+            <datalist id="navegadores">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </form>
+
+        <form>
+            <label for="favcolor">Selecciones su color favorito:</label>
+            <input type="color" id="favcolor" name="favcolor">
+
+        </form> <br>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <input type="submit" value="Submit">
+
+
+    </form>
+
+
+    <form>
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+    </form>
+    <a href="index.html"> index </a>
+</body>
+</html>
